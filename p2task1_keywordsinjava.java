@@ -25,8 +25,8 @@ public class p2task1_keywordsinjava {
      * class int{ void function() { System.out.println("Error he be"); } }
      */
 
-
 }
+
 class ABC {
     int prop;
 
