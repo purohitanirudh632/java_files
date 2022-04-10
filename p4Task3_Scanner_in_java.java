@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class notes1 {
+class p4Task3_Scanner_in_java {
  public static void main(String[] args) {
         System.out.println("here we are going to do some addition    :");
         int a= 25;
