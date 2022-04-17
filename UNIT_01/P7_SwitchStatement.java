@@ -1,4 +1,4 @@
-
+package UNIT_01;
 /* Problem Statement: P7_SwitchStatements: 
    Create a switch statement [Manual], In Which:
 	 a. When you pass 1 your program would print current year

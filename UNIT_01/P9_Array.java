@@ -1,4 +1,4 @@
-package Unit_01;
+package UNIT_01;
 
 /* Tasks given below:
 		obj.sortAnArray(array);

@@ -1,3 +1,4 @@
+package UNIT_01;
 /*
 - Normally an array is the collection of similar type of elements that are stored in contigious memorey location
 - are of fixed size and cannot be resized
