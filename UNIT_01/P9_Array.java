@@ -16,6 +16,11 @@ public class P9_Array {
 
 		QuestionsOnArray obj = new QuestionsOnArray();
 		obj.sortAnArray(array);
+		for(int i=0;i< array.length;i++)
+		{
+			System.out.print(array[i] + " ");
+		}
+
 		obj.findTheDuplicateElements(array);
 		obj.findSecondLargestAndSecondSmallestElement(array);
 		obj.leftRotationInAnArray(array);
@@ -27,8 +32,28 @@ public class P9_Array {
 
 class QuestionsOnArray {
 
+
+//	void swap(int var1, int var2)
+//	{
+//		int temp = var1;
+//		var1 = var2;
+//		var2 = temp;
+//	}
 	void sortAnArray(int[] arr) {
-		// write code here!
+		int j = arr.length;
+		for(int i=0;i<j;i++)
+		{
+			for(int k=0;k<j-i-1;k++)
+			{
+				if(arr[k]>arr[k+1])
+				{
+					int temp = arr[k];
+					arr[k] = arr[k+1];
+					arr[k+1] = temp;
+				}
+			}
+		}
+		//System.out.println();
 
 	}
 

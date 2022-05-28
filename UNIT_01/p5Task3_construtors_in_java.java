@@ -4,6 +4,7 @@ package UNIT_01;
 - At the time of calling the constructor, memory for the object is allocated in the memory
 - It is a special type of method which is used to initialize the object
 - Every time an object is created using the new() keyword, at least one constructor is called
+-  construtor has no return type
 - Two types of Constructors in Java
 	- Parameterized Constructor
 	- Default Constructor
@@ -16,7 +17,11 @@ package UNIT_01;
         public static void main(String[] args) {
 
             ABC4 obj = new ABC4();
+            ABC4 obj2 = new ABC4(77);
             System.out.println(obj.a);
+            System.out.println(obj2.a);
+            obj.display();
+            obj2.display2();
 
 
         }
@@ -35,6 +40,11 @@ package UNIT_01;
 	 }
 	 */
 
+        /*
+        ABC4()    // default construtor
+        {
+        }
+         */
         ABC4(){
             a = 10;
         }

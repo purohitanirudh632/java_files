@@ -1,6 +1,5 @@
 package UNIT_02;
 
-
 /*
  * Abstract Class:
  * -An abstract class must be declared with an abstract keyword

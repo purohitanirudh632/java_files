@@ -16,7 +16,9 @@ public class p4Task02_wappper_class_in_java {
 
         Integer i = Integer.valueOf(a);// converting int into Integer explicitly
         Integer j = a; //autoboxing, now compiler will write Integer.valueOf(a) internally
-
+        System.out.println(Integer.valueOf("1001111",2));  // finds the value of dezired datatype
+        int o = Integer.parseInt("68768");    // converts the value of string into the parsed datatype
+        System.out.println(o);
         System.out.println(a + "" + i + "" + j);
 
         System.out.println(i.toString());
